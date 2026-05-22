@@ -20,6 +20,7 @@ def supported_alerts():
     return {
         "supported_alerts": [
             "CrashLoopBackOff",
-            "OOMKilled"
+            "OOMKilled",
+            "imagepullbackoff"
         ]
     }
