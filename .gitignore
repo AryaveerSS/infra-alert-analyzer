@@ -1,0 +1,51 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+
+# Logs
+*.log
+
+# SQLite database
+*.db
+
+# FastAPI / Python cache
+*.sqlite3
+
+# Mypy
+.mypy_cache/
+
+# Bytecode
+*.pyo
+*.pyd
+
+# Coverage reports
+htmlcov/
+
+# Local configs
+local_settings.py
